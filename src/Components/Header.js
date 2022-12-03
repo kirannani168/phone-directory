@@ -1,6 +1,6 @@
 import React from "react";
 import '../Styles/Header.css'
-const Header = function(){
+const Header = function(props){
     // const headerStyle = {
     //     textAlign: "center",
     //     backgroundColor: "black",
@@ -12,7 +12,7 @@ const Header = function(){
     // }
     return(
         <div className="header">
-            Header
+            {props.heading}
         </div>
     )
 }
