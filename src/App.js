@@ -29,6 +29,9 @@ function App() {
             return <div key={subs.id} className="grid-container">
               <span className="grid-item">{subs.name}</span>
               <span className="grid-item">{subs.mobile}</span>
+              <span className="grid-item action-btn-container">
+                <button className="custom-btn remove-btn">DELETE</button>
+              </span>
             </div>
           })
           }
