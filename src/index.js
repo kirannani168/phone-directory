@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './Styles/Common.css';
 
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import AddSubscriber from './Components/AddSubscriber';
+// import AddSubscriber from './Components/AddSubscriber';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AddSubscriber />
+    <App />
   </React.StrictMode>
 );
 
